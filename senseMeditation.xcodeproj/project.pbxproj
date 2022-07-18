@@ -21,7 +21,6 @@
 		CA8D8FD5287248840022F56E /* meditation2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA8D8FD4287248840022F56E /* meditation2.mp3 */; };
 		CAB8EB242876FFEE00DF4280 /* musicListPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB8EB232876FFED00DF4280 /* musicListPage.swift */; };
 		CAB8EB262877119E00DF4280 /* mainPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB8EB252877119E00DF4280 /* mainPageModel.swift */; };
-		CAB8EB282877256100DF4280 /* testPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB8EB272877256100DF4280 /* testPage.swift */; };
 		CAB8EB2A287734EC00DF4280 /* scroolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB8EB29287734EC00DF4280 /* scroolView.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +41,6 @@
 		CA8D8FD6287249150022F56E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		CAB8EB232876FFED00DF4280 /* musicListPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicListPage.swift; sourceTree = "<group>"; };
 		CAB8EB252877119E00DF4280 /* mainPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainPageModel.swift; sourceTree = "<group>"; };
-		CAB8EB272877256100DF4280 /* testPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testPage.swift; sourceTree = "<group>"; };
 		CAB8EB29287734EC00DF4280 /* scroolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scroolView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,18 +77,11 @@
 				CA8D8FD6287249150022F56E /* Info.plist */,
 				CA8D8FBA286F50D80022F56E /* senseMeditationApp.swift */,
 				CA8D8FBC286F50D80022F56E /* ContentView.swift */,
-				CAB8EB232876FFED00DF4280 /* musicListPage.swift */,
-				CAB8EB29287734EC00DF4280 /* scroolView.swift */,
-				CA8D8FC8286F51480022F56E /* meditationChoosePage.swift */,
-				CA8D8FCA286F51570022F56E /* playerPage.swift */,
-				CA8D8FCC287088C30022F56E /* playControlButton.swift */,
-				CA8D8FCE2870BEB10022F56E /* meditationViewModel.swift */,
-				CAB8EB252877119E00DF4280 /* mainPageModel.swift */,
+				CAD9418D28858C82000AA454 /* View */,
+				CAD9418C28858C7C000AA454 /* Model */,
 				CA8D8FD22872464D0022F56E /* audioManager.swift */,
-				CAB8EB272877256100DF4280 /* testPage.swift */,
 				CA8D8FD02870C1340022F56E /* Extensions.swift */,
-				CA51DDC12876F3E0009FFFF8 /* meditation3.mp3 */,
-				CA8D8FD4287248840022F56E /* meditation2.mp3 */,
+				CAD9418E28858CB8000AA454 /* Audios */,
 				CA8D8FBE286F50DA0022F56E /* Assets.xcassets */,
 				CA8D8FC0286F50DA0022F56E /* Preview Content */,
 			);
@@ -103,6 +94,36 @@
 				CA8D8FC1286F50DA0022F56E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CAD9418C28858C7C000AA454 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA8D8FCE2870BEB10022F56E /* meditationViewModel.swift */,
+				CAB8EB252877119E00DF4280 /* mainPageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CAD9418D28858C82000AA454 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CAB8EB232876FFED00DF4280 /* musicListPage.swift */,
+				CA8D8FC8286F51480022F56E /* meditationChoosePage.swift */,
+				CA8D8FCA286F51570022F56E /* playerPage.swift */,
+				CAB8EB29287734EC00DF4280 /* scroolView.swift */,
+				CA8D8FCC287088C30022F56E /* playControlButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CAD9418E28858CB8000AA454 /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+				CA51DDC12876F3E0009FFFF8 /* meditation3.mp3 */,
+				CA8D8FD4287248840022F56E /* meditation2.mp3 */,
+			);
+			path = Audios;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,7 +198,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAB8EB282877256100DF4280 /* testPage.swift in Sources */,
 				CA8D8FCF2870BEB10022F56E /* meditationViewModel.swift in Sources */,
 				CA8D8FBD286F50D80022F56E /* ContentView.swift in Sources */,
 				CAB8EB242876FFEE00DF4280 /* musicListPage.swift in Sources */,
